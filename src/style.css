@@ -52,7 +52,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
+  --color-primary: #535680;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -296,7 +296,7 @@ a:focus {
 
 .bio h6 span {
   display: inline-block;
-  background: #005b99;
+  background: #515373;
   color: #eee;
   padding: 2px 6px;
   font-weight: 700;
