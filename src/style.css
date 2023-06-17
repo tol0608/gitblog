@@ -339,6 +339,15 @@ a:focus {
 .blog-post-nav ul {
   margin: var(--spacing-0);
 }
+
+.blog-post-nav a {
+  text-decoration: none;
+}
+
+.blog-post-nav a:hover {
+  font-weight: 500;
+}
+
 /*tags start*/
 .blog-post .tags ul {
   list-style: none;
