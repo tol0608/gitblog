@@ -1,4 +1,6 @@
 import React from "react"
+import * as styles from "../styles/tag.module.css"
+// css를 모듈 방식으로 넣을때는 * as 를 넣어야함 230618
 
 import {Link, graphql} from "gatsby"
 import Layout from "../components/layout"
@@ -8,9 +10,12 @@ const Tags = ({pageContext, data, location}) => {
     const {tag} = pageContext
     const {edges, totalCount} = data.allMarkdownRemark
     const siteTitle = data.site.siteMetadata.title
-    const tagHeader = `${totalCount} post${
-        totalCount === 1 ? "" : "s"
-    } tagged with "${tag}"`
+    // const tagHeader = `${totalCount} post${
+    //     totalCount === 1 ? "" : "s"
+    // } tagged with "${tag}"`
+    const tagHeader = `${tag} 태그의 글은 ${totalCount}개 입니다.`
+    // s태그의 글은 n개입니다. 로 수정  230618
+
 
     return (
         <Layout location={location} title={siteTitle}>
@@ -21,7 +26,7 @@ const Tags = ({pageContext, data, location}) => {
                     const {slug} = node.fields
                     const {title} = node.frontmatter
                     return (
-                        <li key={slug}>
+                        <li className={styles.tagList} key={slug}>
                             <Link to={slug}>{title}</Link>
                         </li>
                     )
