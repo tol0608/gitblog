@@ -1,11 +1,11 @@
-.tag-List{
+.tagList{
     list-style: none;
 }
 
-.tag-List:hover {
+.tagList:hover {
     font-weight: 500;
 }
 
-.tag-List a {
+.tagList a {
     text-decoration: none;
 }

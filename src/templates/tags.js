@@ -1,5 +1,5 @@
 import React from "react"
-import * as styles from "../styles/tag.module.css"
+import * as Tag from "../styles/tag.module.css"
 // css를 모듈 방식으로 넣을때는 * as 를 넣어야함 230618
 
 import {Link, graphql} from "gatsby"
@@ -26,7 +26,7 @@ const Tags = ({pageContext, data, location}) => {
                     const {slug} = node.fields
                     const {title} = node.frontmatter
                     return (
-                        <li className={styles.tagList} key={slug}>
+                        <li className={Tag.tagList} key={slug}>
                             <Link to={slug}>{title}</Link>
                         </li>
                     )
