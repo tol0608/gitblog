@@ -5,12 +5,20 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import kebabCase from "lodash.kebabcase"
+import TableOfContents from "../components/TableOfContents"
 
 const BlogPostTemplate = ({
-                              data: {previous, next, site, markdownRemark: post},
+                              data: {
+                                  previous,
+                                  next,
+                                  site,
+                                  markdownRemark: post,
+                              },
                               location,
                           }) => {
     const siteTitle = site.siteMetadata?.title || `Title`
+    const content = post.tableOfContents
+    //TOC 기능 230621 완료
 
     return (
         <Layout location={location} title={siteTitle}>
@@ -28,6 +36,8 @@ const BlogPostTemplate = ({
                     itemProp="articleBody"
                 />
                 <hr/>
+                <TableOfContents content={content} />
+                {/*TOC삽입*/}
                 {/*tags*/}
                 <div className="tags">
                     <ul>
@@ -44,6 +54,7 @@ const BlogPostTemplate = ({
                     <Bio/>
                 </footer>
             </article>
+
             <nav className="blog-post-nav">
                 <ul
                     style={{
