@@ -1,5 +1,9 @@
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
+}
+
+a {
+    pointer-events: auto;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -12,13 +16,11 @@ html {
     position: fixed;
     top: 40px;
     right: 20px;
-    width: 300px;
-    max-height: 80vh;
-    overflow-y: auto;
-    padding: 10px;
-    background-color: #fff;
-    border-left: 1px solid #1a202c;
-    font-size: 14px;
+}
+
+.toc ul, li {
+    pointer-events: none;
+    overflow: hidden;
 }
 
 .toc ul {
@@ -35,11 +37,30 @@ html {
     margin: 0;
 }
 
+
 .toc a {
+    display: block;
+    overflow: hidden;
+    color: var(--color-text);
+    padding: 2px 8px;
+    border-radius: 6px;
     text-decoration: none;
-    color: #1a202c;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.9em;
+}
+.toc a:hover {
+    background-color: #1a202c;
+    color: #eeeeee;
 }
 
-.toc a:hover {
-    font-weight: 500;
+.toc .activeItem_hashedString {
+    background-color: #1a202c;
+    color: #eeeeee;
+}
+
+@media (max-width: 1250px) {
+    .toc {
+        display: none;
+    }
 }
