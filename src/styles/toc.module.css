@@ -16,9 +16,12 @@ a {
     position: fixed;
     top: 40px;
     right: 20px;
+    max-height: 400px;
 }
 
-.toc ul, li {
+.toc ul,
+.toc li
+.toc div{
     pointer-events: none;
     overflow: hidden;
 }
@@ -37,11 +40,10 @@ a {
     margin: 0;
 }
 
-
 .toc a {
     display: block;
     overflow: hidden;
-    color: var(--color-text);
+    /*color: var(--color-text);*/
     padding: 2px 8px;
     border-radius: 6px;
     text-decoration: none;
@@ -49,15 +51,22 @@ a {
     white-space: nowrap;
     font-size: 0.9em;
 }
+
 .toc a:hover {
     background-color: #1a202c;
     color: #eeeeee;
 }
 
-.toc .activeItem_hashedString {
+.activeItem_hashedString {
     background-color: #1a202c;
     color: #eeeeee;
 }
+
+.activeItem {
+    background-color: #1a202c;
+    color: #eeeeee;
+}
+
 
 @media (max-width: 1250px) {
     .toc {
