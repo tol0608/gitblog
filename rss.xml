@@ -1,4 +1,674 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[오늘도 앞으로]]></description><link>https://tol0608.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 28 Jun 2023 14:23:58 GMT</lastBuildDate><item><title><![CDATA[Git]]></title><link>https://tol0608.github.io/Git/</link><guid isPermaLink="false">https://tol0608.github.io/Git/</guid><pubDate>Tue, 27 Jun 2023 22:12:03 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[마크다운을 이용한 블로그 업로드]]></title><description><![CDATA[마크다운을 활용한 블로그 글 작성 예시 안녕하세요! 이번에는 마크다운(Markdown…]]></description><link>https://tol0608.github.io/markdown/</link><guid isPermaLink="false">https://tol0608.github.io/markdown/</guid><pubDate>Sun, 18 Jun 2023 23:09:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;마크다운을-활용한-블로그-글-작성-예시&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80-%EC%9E%91%EC%84%B1-%EC%98%88%EC%8B%9C&quot; aria-label=&quot;마크다운을 활용한 블로그 글 작성 예시 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;마크다운을 활용한 블로그 글 작성 예시&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[오늘도 앞으로]]></description><link>https://tol0608.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 05 Jul 2023 09:21:28 GMT</lastBuildDate><item><title><![CDATA[Git]]></title><link>https://tol0608.github.io/Git/</link><guid isPermaLink="false">https://tol0608.github.io/Git/</guid><pubDate>Tue, 27 Jun 2023 22:12:03 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[HTML의 기초 2]]></title><description><![CDATA[사용자가 로그인 폼에 아이디와 비밀번호를 입력합니다. 사용자가 제출을 클릭하면,  태그의  속성에 지정된 URL…]]></description><link>https://tol0608.github.io/HTML-basics/index0621/</link><guid isPermaLink="false">https://tol0608.github.io/HTML-basics/index0621/</guid><pubDate>Wed, 21 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/52e0daccd3ae0b99355443cd1d484516/e8950/img_2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.93670886075949%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAABjklEQVR42qWSS3PaQBCE+f+/JL7EiW92XtiYEAIIgRFgjJB4Y9AThIRA0pfS2HE5KVcu2ao57E5PT0/PFsjgv+L1yaDwO5Gl2Uv8q+A1Nk1SppMphj7CNEzCffhMyNuFeUEO2gd7wiAkSZI/YHEU09N6LOZLBv0Bju08EW79LZ7ns9sFOJYtBPm757oYusHwYYhrO1jrDYfogGO73Pfumc/mtJoq5ZsSpeK18BROxxNjw5ROaqPJ+nEtY+TKbMtCqStUK1WCIBBV/W4ffagT7AKSU4JruzTrCqZhSF4ITWPMdDylrbbod3vUaw0atYZ0rJQrfC/dcv21yO1NiZE+Ij7EUpymKY/LlQhYzBccwohC7pN21+Gu1aZW/cmPcgVVURkOHth6Wz68P+fs3RmfLq+EUKk36GpdVssVjuUwGups1hu0joa9sZ88PMZHISx++YbW7kjnfGTP9QSch+/5oth6vk/GE3zfl6k+X15xcf5RMC9bjqKIKIzEdPkW2Vvr//srgOu4tJQm89lMPPwFlhqlui2QzHgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;img_2.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/52e0daccd3ae0b99355443cd1d484516/f058b/img_2.png&quot;
+        srcset=&quot;/static/52e0daccd3ae0b99355443cd1d484516/c26ae/img_2.png 158w,
+/static/52e0daccd3ae0b99355443cd1d484516/6bdcf/img_2.png 315w,
+/static/52e0daccd3ae0b99355443cd1d484516/f058b/img_2.png 630w,
+/static/52e0daccd3ae0b99355443cd1d484516/40601/img_2.png 945w,
+/static/52e0daccd3ae0b99355443cd1d484516/78612/img_2.png 1260w,
+/static/52e0daccd3ae0b99355443cd1d484516/e8950/img_2.png 2000w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;aside&gt;
+🌐 로그인 폼의 동작 과정:
+&lt;ol&gt;
+&lt;li&gt;사용자가 로그인 폼에 아이디와 비밀번호를 입력합니다.&lt;/li&gt;
+&lt;li&gt;사용자가 제출을 클릭하면, &lt;code class=&quot;language-text&quot;&gt;&amp;lt;form&gt;&lt;/code&gt; 태그의 &lt;code class=&quot;language-text&quot;&gt;action&lt;/code&gt; 속성에 지정된 URL로 요청이 전송됩니다.&lt;/li&gt;
+&lt;li&gt;서버는 요청을 받고, 입력된 아이디와 비밀번호를 확인합니다.&lt;/li&gt;
+&lt;li&gt;유효한 아이디와 비밀번호인 경우, 서버는 사용자에게 로그인 성공 페이지를 보여줍니다.&lt;/li&gt;
+&lt;li&gt;그렇지 않은 경우, 서버는 사용자에게요 로그인 실패 페이지를 보여줍니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/aside&gt;
+&lt;h2 id=&quot;form태그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#form%ED%83%9C%EA%B7%B8&quot; aria-label=&quot;form태그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;form태그&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;form&gt;&lt;/code&gt; 태그는 사용자로부터 정보를 입력받을 때 사용합니다. 다음과 같은 속성을 포함합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- `action`: 폼 데이터를 보낼 서버의 URL을 지정합니다.
+- ⭐️ `method`: 폼 데이터를 서버에 보낼 HTTP 메서드를 지정합니다. 이 값을 변경하면 폼 데이터를 전송하는 방식이 달라집니다.
+  보통 `get` 방식은 폼 데이터를 URL 끝에 쿼리 문자열로 전송하고, `post` 방식은 폼 데이터를 HTTP 요청 본문에 담아 전송합니다. 이 값이 지정되어 있지 않으면 `get` 방식으로
+  전송됩니다.
+- `enctype`: 폼 데이터를 서버로 보낼 때 사용할 인코딩 방식을 지정합니다.
+- `target`: 폼 데이터를 보낸 후 결과를 표시할 창의 이름을 지정합니다.
+- `name`: 폼의 이름을 지정합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;form&gt;&lt;/code&gt; 태그는 다음과 같은 입력 요소들을 포함할 수 있습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- `&amp;lt;input&gt;`: 텍스트, 숫자, 이메일 등 다양한 종류의 입력 요소를 생성합니다.
+- `&amp;lt;textarea&gt;`: 여러 줄의 텍스트를 입력할 수 있는 입력 요소를 생성합니다.
+- `&amp;lt;select&gt;`: 드롭다운 목록을 생성합니다.
+- `&amp;lt;button&gt;`: 버튼을 생성합니다.
+- `&amp;lt;label&gt;`: 레이블을 생성합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;form&gt;&lt;/code&gt; 태그는 다음과 같이 사용합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;```html
+&amp;lt;form action=&quot;&amp;lt;https://example.com&gt;&quot; method=&quot;post&quot;&gt;
+  &amp;lt;label for=&quot;name&quot;&gt;이름:&amp;lt;/label&gt;
+  &amp;lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot;&gt;
+
+  &amp;lt;label for=&quot;email&quot;&gt;이메일:&amp;lt;/label&gt;
+  &amp;lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
+
+  &amp;lt;button type=&quot;submit&quot;&gt;제출&amp;lt;/button&gt;
+&amp;lt;/form&gt;
+```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 코드는 이름과 이메일을 입력받는 폼을 생성하며, 데이터를 서버로 보내는 버튼이 있습니다. &lt;code class=&quot;language-text&quot;&gt;action&lt;/code&gt; 속성에는 데이터를 보낼 서버의 URL을, &lt;code class=&quot;language-text&quot;&gt;method&lt;/code&gt; 속성에는 HTTP 메서드를
+지정합니다. &lt;code class=&quot;language-text&quot;&gt;input&lt;/code&gt; 태그의 &lt;code class=&quot;language-text&quot;&gt;type&lt;/code&gt; 속성은 입력 요소의 종류를 지정합니다. 나머지 속성은 각각 입력 요소의 이름과 ID를 지정합니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;form&gt;&lt;/code&gt; 태그 안에 여러 개의 입력 요소를 포함할 수 있으며, 이들은 모두 같은 서버로 데이터를 보냅니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;fieldset&gt;&lt;/code&gt; 태그는 폼 안에 여러 개의 관련된 입력 요소를 그룹화할 때 사용합니다. &lt;code class=&quot;language-text&quot;&gt;&amp;lt;legend&gt;&lt;/code&gt; 태그는 이 그룹의 제목을 지정합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;aside&gt;
+🌐 `method` 속성은 HTML 폼 데이터를 서버로 전송하는 HTTP 메서드를 지정합니다. 보통 `get`과 `post` 메서드가 사용됩니다.
+
+- `get`: 폼 데이터를 URL 끝에 쿼리 문자열의 형태로 전송합니다. 브라우저는 URL을 조합하여 요청을 보냅니다.
+    - 폼 데이터가 URL에 노출되므로 보안에 취약합니다.
+    - URL에 전송할 수 있는 최대 데이터 크기가 있습니다.
+    - 브라우저의 뒤로 가기 버튼을 사용하여 이전에 전송된 데이터를 다시 얻을 수 있습니다.
+- `post`: 폼 데이터를 HTTP 요청 본문에 담아 전송합니다. 브라우저는 본문을 생성하여 요청을 보냅니다.
+    - URL에 데이터가 노출되지 않으므로 보안에 강합니다.
+    - 전송할 수 있는 데이터 크기에 제한이 없습니다.
+    - 브라우저의 뒤로 가기 버튼을 사용하여 이전에 전송된 데이터를 얻을 수 없습니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이러한 차이점 때문에, 보안이 중요한 데이터를 보낼 때는 &lt;code class=&quot;language-text&quot;&gt;post&lt;/code&gt; 메서드를 사용하는 것이 좋습니다. 그러나 간단한 데이터를 보낼 때는 &lt;code class=&quot;language-text&quot;&gt;get&lt;/code&gt; 메서드를 사용하는 것이 더 간편합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![img_3.png](img_3.png)
+
+&amp;lt;/aside&gt;
+
+```html
+&amp;lt;form&gt;
+  &amp;lt;fieldset&gt;
+    &amp;lt;legend&gt;개인 정보&amp;lt;/legend&gt;
+
+    &amp;lt;label for=&quot;name&quot;&gt;이름:&amp;lt;/label&gt;
+    &amp;lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot;&gt;
+
+    &amp;lt;label for=&quot;email&quot;&gt;이메일:&amp;lt;/label&gt;
+    &amp;lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
+  &amp;lt;/fieldset&gt;
+
+  &amp;lt;fieldset&gt;
+    &amp;lt;legend&gt;배송 정보&amp;lt;/legend&gt;
+
+    &amp;lt;label for=&quot;address&quot;&gt;주소:&amp;lt;/label&gt;
+    &amp;lt;input type=&quot;text&quot; id=&quot;address&quot; name=&quot;address&quot;&gt;
+
+    &amp;lt;label for=&quot;zip&quot;&gt;우편번호:&amp;lt;/label&gt;
+    &amp;lt;input type=&quot;text&quot; id=&quot;zip&quot; name=&quot;zip&quot;&gt;
+  &amp;lt;/fieldset&gt;
+&amp;lt;/form&gt;
+```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 코드는 폼 안에 개인 정보와 배송 정보를 입력받는 두 개의 그룹을 생성합니다. &lt;code class=&quot;language-text&quot;&gt;fieldset&lt;/code&gt; 태그 안에는 각 그룹의 입력 요소들이 포함되어 있으며, &lt;code class=&quot;language-text&quot;&gt;legend&lt;/code&gt; 태그는 그룹의 제목을 지정합니다.&lt;/p&gt;
+&lt;h2 id=&quot;input-태그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#input-%ED%83%9C%EA%B7%B8&quot; aria-label=&quot;input 태그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;input 태그&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;input&gt;&lt;/code&gt; 태그는 사용자로부터 입력을 받을 때 사용합니다. 다음과 같은 속성을 포함합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- `type`: 입력 요소의 종류를 지정합니다. 텍스트, 숫자, 이메일, 파일 등 다양한 종류의 입력 요소를 만들 수 있습니다.
+- `name`: 입력 요소의 이름을 지정합니다. 이 이름은 서버에서 폼 데이터를 처리할 때 사용됩니다.
+- `value`: 입력 요소의 초기값을 지정합니다. JavaScript에서는 사용자가 입력한 값을 `value`로 인식하기도 합니다.
+- `placeholder`: 입력 요소에 입력할 값의 예시를 표시합니다.
+- `required`: 입력 요소가 반드시 입력되어야 하는지를 지정합니다.
+- `disabled`: 입력 요소가 비활성화되어 있는지를 지정합니다.
+- `readonly`: 입력 요소가 읽기 전용인지를 지정합니다.
+- `min`, `max`: 입력 요소의 최솟값과 최댓값을 지정합니다. `type` 속성이 `date`, `number`, `range`일 때 사용됩니다.
+- `step`: 입력 요소의 증감 단위를 지정합니다. `type` 속성이 `number`, `range`일 때 사용됩니다.
+- `autofocus`: 페이지가 로드될 때 자동으로 입력 요소에 포커스를 설정합니다.
+- `autocomplete`: 입력 요소에 자동완성 기능을 적용합니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;input&gt;&lt;/code&gt; 태그는 다음과 같은 종류의 입력 요소를 만들 수 있습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- `text`: 일반적인 텍스트 입력 요소를 만듭니다.
+- `password`: 비밀번호 입력 요소를 만듭니다.
+- `email`: 이메일 주소 입력 요소를 만듭니다.
+- `tel`: 전화번호 입력 요소를 만듭니다.
+- `number`: 숫자 입력 요소를 만듭니다.
+- `range`: 범위를 나타내는 입력 요소를 만듭니다.
+- `date`: 날짜 입력 요소를 만듭니다.
+- `time`: 시간 입력 요소를 만듭니다.
+- `datetime-local`: 로컬 시간과 날짜를 나타내는 입력 요소를 만듭니다.
+- `color`: 색상을 나타내는 입력 요소를 만듭니다.
+- `file`: 파일 업로드 요소를 만듭니다. 요청 방식은 `post` 이어야 하며, `enctype` 속성은 `multipart/form-data` 이어야 합니다.
+- `submit`: 폼 데이터를 서버로 제출하는 버튼을 만듭니다.
+- `reset`: 입력 요소의 값을 초기화하는 버튼을 만듭니다.
+- `button`: 아무 동작도 수행하지 않는 버튼을 만듭니다.
+- ⭐️ hidden
+
+  HTML에서는 `input` 태그를 사용하여 숨겨진 버튼을 만들 수 있습니다. 이 버튼은 사용자에게 표시되지 않지만, JavaScript 코드에서 클릭 이벤트를 발생시키거나 폼을 제출할 때 사용됩니다.
+
+    ```html
+    &amp;lt;input type=&quot;hidden&quot; id=&quot;myButton&quot; value=&quot;Click me!&quot;&gt;
+    ```
+
+  위 코드는 숨겨진 버튼을 생성합니다. `type` 속성이 `hidden`으로 설정되어 있으므로, 이 버튼은 사용자에게 표시되지 않습니다. 버튼의 `id` 속성은 자바스크립트에서 이 버튼을 참조할 때
+  사용됩니다. `value` 속성은 버튼에 표시될 텍스트를 지정합니다.
+
+  자바스크립트에서 숨겨진 버튼을 클릭하려면, 다음과 같이 `click` 메서드를 호출합니다.
+
+    ```jsx
+    document.getElementById(&apos;myButton&apos;).click();
+    ```
+
+  숨겨진 버튼을 사용하여 폼을 제출하려면, 다음과 같이 `submit` 메서드를 호출합니다.
+
+    ```jsx
+    document.getElementById(&apos;myForm&apos;).submit();
+    ```
+
+  위 코드는 `myForm`이라는 이름을 가진 폼을 제출합니다. 이 폼은 다음과 같이 생성됩니다.
+
+    ```html
+    &amp;lt;form id=&quot;myForm&quot; action=&quot;/submit&quot; method=&quot;post&quot;&gt;
+      &amp;lt;input type=&quot;hidden&quot; name=&quot;username&quot; value=&quot;johndoe&quot;&gt;
+      &amp;lt;input type=&quot;hidden&quot; name=&quot;password&quot; value=&quot;secret&quot;&gt;
+    &amp;lt;/form&gt;
+    ```
+
+  위 코드는 숨겨진 입력 요소를 사용하여 사용자의 이름과 비밀번호를 서버로 전송합니다. `type` 속성이 `hidden`으로 설정되어 있으므로, 이 요소들은 사용자에게 표시되지 않습니다.
+  폼의 `action` 속성은 폼 데이터를 보낼 서버의 URL을, `method` 속성은 HTTP 메서드를 지정합니다. `name` 속성은 입력 요소의 이름을 지정하며, 이 이름은 서버에서 폼 데이터를
+  처리할 때 사용됩니다. `value` 속성은 입력 요소의 초기값을 지정합니다.
+
+체크박스는 사용자가 여러 개의 옵션 중에서 선택할 수 있도록 하는 입력 요소입니다. 다음과 같은 속성을 포함합니다.
+
+- `name`: 체크박스의 이름을 지정합니다. 이 이름은 서버에서 폼 데이터를 처리할 때 사용됩니다.
+- `value`: 체크박스의 값을 지정합니다.
+- `checked`: 체크박스가 선택된 상태인지 여부를 지정합니다.
+
+```html
+&amp;lt;input type=&quot;checkbox&quot; name=&quot;fruits&quot; value=&quot;apple&quot; checked&gt;
+&amp;lt;label for=&quot;apple&quot;&gt;사과&amp;lt;/label&gt;
+
+&amp;lt;input type=&quot;checkbox&quot; name=&quot;fruits&quot; value=&quot;orange&quot;&gt;
+&amp;lt;label for=&quot;orange&quot;&gt;오렌지&amp;lt;/label&gt;
+```
+
+위 코드는 체크박스로 &quot;사과&quot;와 &quot;오렌지&quot;를 표시하는 예시입니다. `name` 속성으로 같은 이름을 지정한 두 개의 체크박스는 함께 그룹핑됩니다. `value` 속성은 체크박스가 선택됐을 때 서버에 전송될 값을 지정합니다. `checked` 속성은 초기에 체크박스가 선택된 상태로 표시됩니다.
+
+`&amp;lt;input&gt;` 태그는 다음과 같이 사용합니다.
+
+```html
+&amp;lt;label for=&quot;name&quot;&gt;이름:&amp;lt;/label&gt;
+&amp;lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot;&gt;
+
+&amp;lt;label for=&quot;email&quot;&gt;이메일:&amp;lt;/label&gt;
+&amp;lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot;&gt;
+```
+
+위 코드는 이름과 이메일을 입력받는 폼을 만드는 예시입니다. `type` 속성을 이용하여 텍스트 입력 요소와 이메일 입력 요소를 만들었습니다. 나머지 속성은 각각 입력 요소의 이름과 ID를 지정합니다.
+
+```html
+&amp;lt;form action=&quot;memberLogin.jsp&quot;&gt;
+    &amp;lt;fieldset&gt;
+        &amp;lt;legend&gt;Login1&amp;lt;/legend&gt;
+        &amp;lt;label for=&quot;id&quot;&gt;ID : &amp;lt;/label&gt; &amp;lt;input type=&quot;text&quot; id=&quot;id&quot; size=&quot;20&quot;&gt;
+        &amp;lt;label for=&quot;password&quot;&gt;P/W : &amp;lt;/label&gt; &amp;lt;input type=&quot;password&quot; id=&quot;password&quot; size=&quot;20&quot;&gt;
+        &amp;lt;input type=&quot;submit&quot; value=&quot;로그인&quot;&gt;
+    &amp;lt;/fieldset&gt;
+
+	  &amp;lt;fieldset&gt;
+        &amp;lt;legend&gt;Login2&amp;lt;/legend&gt;
+        &amp;lt;label for=&quot;id&quot;&gt;ID : &amp;lt;/label&gt; &amp;lt;input type=&quot;text&quot; name=&quot;id&quot; id=&quot;id&quot; size=&quot;20&quot;&gt;
+        &amp;lt;label for=&quot;password&quot;&gt;P/W : &amp;lt;/label&gt; &amp;lt;input type=&quot;password&quot; name=&quot;password&quot; id=&quot;password&quot; size=&quot;20&quot;&gt;
+        &amp;lt;input type=&quot;submit&quot; value=&quot;로그인&quot;&gt;
+    &amp;lt;/fieldset&gt;
+&amp;lt;/form&gt;
+```
+
+login1의 입력 양식에는 `name` 속성이 없어서 요청에 포함될 수 없습니다. 따라서 아래 login2 입력 양식과 같이 `name` 속성을 추가해야 합니다.
+
+두 번째로, 현재 폼에서는 사용자 입력 내용을 서버로 전달할 때 주소 표시줄에 전부 노출됩니다. 따라서 `method` 속성을 `post`로 입력해야 합니다.
+
+&amp;lt;aside&gt;
+🌐 파일 업로드를 위해서는 `form` 태그에서 `method`와 `enctype` 속성을 `multipart/form-data`로 설정해야 합니다.
+
+```html
+&amp;lt;form method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;
+    &amp;lt;fieldset&gt;
+      &amp;lt;legend&gt;반품 정보&amp;lt;/legend&gt;
+      &amp;lt;p&gt;만일 수령한 상품에 문제가 있다면 즉시 &amp;lt;b&gt;반품 신청&amp;lt;/b&gt;해 주세요.&amp;lt;/p&gt;
+      &amp;lt;p&gt;반품 신청시 상품의 상태를 사진으로 첨부해 주세요.&amp;lt;/p&gt;
+      &amp;lt;hr&gt;
+      &amp;lt;input type=&quot;file&quot;&gt;    
+    &amp;lt;/fieldset&gt;
+    &amp;lt;div&gt;
+      &amp;lt;input type=&quot;submit&quot; value=&quot;반품 신청&quot;&gt; 
+      &amp;lt;input type=&quot;reset&quot; value=&quot;취소하기&quot;&gt;
+    &amp;lt;/div&gt;        
+  &amp;lt;/form&gt;
+```
+
+&amp;lt;/aside&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;ISO-8859-1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ISO-8859-1&quot; aria-label=&quot;ISO 8859 1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ISO-8859-1&lt;/h2&gt;
+&lt;p&gt;ISO-8859-1은 라틴 알파벳을 사용하는 언어들을 위해 만들어진 문자 인코딩 방식 중 하나입니다. 이 문자 인코딩 방식은 1바이트로 문자를 표현하기 때문에, 다른 인코딩 방식에 비해 상대적으로 작은 용량으로
+데이터를 전송할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;ISO-8859-1은 라틴 알파벳을 포함한 총 191개의 문자를 인코딩할 수 있습니다. 이 문자 인코딩 방식은 HTML에서 특수문자를 나타낼 때도 사용됩니다. 예를 들어, &amp;#x3C;는 &quot;&amp;#x3C;&quot; 기호를 나타내고,
+&amp;#x26;는 &quot;&amp;#x26;&quot; 기호를 나타냅니다.&lt;/p&gt;
+&lt;p&gt;ISO-8859-1은 기본적으로 유럽 언어들과 아이슬란드어, 타갈로그어 등에서 사용됩니다. 그러나, 이 문자 인코딩 방식은 한글, 중국어, 일본어 등을 포함한 다른 언어들의 문자를 인코딩하는 데에는 적합하지
+않습니다.&lt;/p&gt;
+&lt;h2 id=&quot;URL이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#URL%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;URL이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;URL이란?&lt;/h2&gt;
+&lt;p&gt;URL은 Uniform Resource Locator의 약자로 인터넷 상의 서버와 클라이언트 간 통신에서 자원의 위치를 나타내는 주소입니다. 일반적으로는 &quot;http://&quot;나 &quot;https://&quot;와 같은 프로토콜
+식별자와 도메인 이름, 그리고 자원의 경로로 이루어져 있습니다.&lt;/p&gt;
+&lt;p&gt;Protocol + Host(Host Name + Port)&lt;/p&gt;
+&lt;h2 id=&quot;loginhtml에-jsp파일로-연결해보기-코드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#loginhtml%EC%97%90-jsp%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EC%97%B0%EA%B2%B0%ED%95%B4%EB%B3%B4%EA%B8%B0-%EC%BD%94%EB%93%9C&quot; aria-label=&quot;loginhtml에 jsp파일로 연결해보기 코드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;login.html에 jsp파일로 연결해보기 코드&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;```html
+&amp;lt;%@ page contentType=&quot;text/html; charset=UTF-8&quot; %&gt;
+
+&amp;lt;%
+	final String ID = &quot;longlee&quot;;
+	final String PASSWD = &quot;6789&quot;; 
+	String user_id = &quot;&quot;;
+	String user_pw = &quot;&quot;;
+	boolean result = false;
+	
+	if(request.getMethod().equals(&quot;POST&quot;)) {
+		user_id = request.getParameter(&quot;user_id&quot;);
+		user_pw = request.getParameter(&quot;user_pw&quot;);
+	}
+	
+	if(user_id != null &amp;amp;&amp;amp; user_id.equals(ID) &amp;amp;&amp;amp; user_pw != null &amp;amp;&amp;amp; user_pw.equals(PASSWD)) {
+		result = true;
+	}
+%&gt;
+
+&amp;lt;!DOCTYPE html&gt;
+
+&amp;lt;html&gt;
+&amp;lt;head&gt;
+	&amp;lt;meta charset=&quot;UTF-8&quot;&gt;
+	&amp;lt;title&gt;memberLogin.jsp&amp;lt;/title&gt;
+&amp;lt;/head&gt;
+&amp;lt;body&gt;
+
+	&amp;lt;h1&gt;로그인 결과&amp;lt;/h1&gt;
+	&amp;lt;hr /&gt;
+
+&amp;lt;%
+	if(result) {
+%&gt;
+	&amp;lt;h4&gt;&amp;lt;%= user_id %&gt;님 로그인에 성공하셨습니다.&amp;lt;/h4&gt;
+&amp;lt;%		
+	}
+	else {
+%&gt;
+	&amp;lt;h4&gt;로그인에 실패하였습니다 ... &amp;lt;a href=&quot;login.html&quot;&gt;재로그인&amp;lt;/a&gt;&amp;lt;/h4&gt;
+&amp;lt;%
+	}
+%&gt;
+
+&amp;lt;/body&gt;
+&amp;lt;/html&gt;
+```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[HTML의 기초 1]]></title><description><![CDATA[HTML…]]></description><link>https://tol0608.github.io/HTML-basics/index0620/</link><guid isPermaLink="false">https://tol0608.github.io/HTML-basics/index0620/</guid><pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;HTML-텍스트-태그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#HTML-%ED%85%8D%EC%8A%A4%ED%8A%B8-%ED%83%9C%EA%B7%B8&quot; aria-label=&quot;HTML 텍스트 태그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML 텍스트 태그&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;p&gt;&lt;/code&gt;: 단락을 표시하는 태그입니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;br&gt;&lt;/code&gt;: 줄바꾸기 태그입니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;h1&gt;&lt;/code&gt; ~ &lt;code class=&quot;language-text&quot;&gt;&amp;lt;h6&gt;&lt;/code&gt;: 제목을 표시하는 태그입니다. 숫자가 작을수록 큰 제목입니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;em&gt;&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;&amp;lt;i&gt;&lt;/code&gt;: 강조하는 텍스트를 이탤릭체로 표시합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;strong&gt;&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;&amp;lt;b&gt;&lt;/code&gt; : 강조하는 텍스트를 굵은 글씨로 표시합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;a&gt;&lt;/code&gt;: 링크를 만드는 태그입니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;u&gt;&lt;/code&gt; 태그는 텍스트에 밑줄을 표시하는 태그입니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;s&lt;/code&gt; 태그는 텍스트에 취소선을 표시하는 태그입니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;HTML-목록-태그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#HTML-%EB%AA%A9%EB%A1%9D-%ED%83%9C%EA%B7%B8&quot; aria-label=&quot;HTML 목록 태그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML 목록 태그&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;ul&gt;&lt;/code&gt;: 순서가 없는 목록을 만듭니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;ol&gt;&lt;/code&gt;: 순서가 있는 목록을 만듭니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;li&gt;&lt;/code&gt;: 목록의 아이템을 나타냅니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;dl&gt;&lt;/code&gt;: 용어를 정의하는 목록을 만듭니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;dt&gt;&lt;/code&gt;: 용어를 정의합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;dd&gt;&lt;/code&gt;: 용어에 대한 정의를 제공합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;HTML-표-태그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#HTML-%ED%91%9C-%ED%83%9C%EA%B7%B8&quot; aria-label=&quot;HTML 표 태그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML 표 태그&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1166c6181c3fab56ab127bf3e517fe2b/e8950/img_1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.0126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsElEQVR42m1UWVPiQBj0/7+sb1s+77r7sr6sSCFnACESSCKXyCVHwpFDdKOICUl66/uQrMdOVWqmMl96err7ywFCIPADbL0twhA8wjBEGOye/XBfXHiux7U0/K2/26eSN88Bba7uVqiIFXSub9CoN9G96TIojc3zBoqsQMgJaLfaXFO6KOFKrUfgnwDvV/fQphr6vT5/NLodYdAfoFaV0Ww0sZgtMBzcYj6bw1gYfMjL5uUTuwjQNExst1s4joOn9RM8z0OxcIFCvgBd0+H7PoylwfNysfwky9urMyAV7RmOR2Nomo7zxDlyGQFKTWHQZqOF6USDrs0iwHfjLaBlmiz4w/0D1k9rXpOm8isYGcC38LawTIsZkSREwvnjsAdBELxnOJ1M0bnuYNgfYjyaIH4WRyqZYkNm+gytZovn4WCIqlTlWlVRWeN2s80y/WNoWMyCzHler1lPqVKFoqjQdZ1PtyybmbSabf6QYtS76WHYH6DX7fH60XncAS7mC2YgSRLqap3XJ79OEDs9Q7FQxHW7wwZlM1lomsaS0ZWFdBalQhFiqYy6osIyzB0gxYEYCUIeYvmStTv6eoTDL4dInqdQlWpIpzK8R7pR/ogVASVicVTKl3zlmaa/AupzyDWZ2chVGXmhgO/fjvHj+CfrSHnMprN8KDm9v5Vt2oj9jiGZSGI6nnC0GJDCSg6uVivYts3OimURinzFjPb5I23v7DteUw01AR2eSWcwGU3Y/ahTbMtmB/NCnt2ULiUosopup8uS0B6BUEyoPpfNcTuWSiWoytXOZZDLFPIghLE0OTrlUhnuxo06gfTyPZ9TQPP+h0FdRZGKncZ4JuYRII1GvcE61lUVpmHswh986IbXjti/F0URiXgCrutGewdRY++Lw/C/Tf/xIVD6STw6zrte/gvS3p9cM4LKLQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;img_1.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1166c6181c3fab56ab127bf3e517fe2b/f058b/img_1.png&quot;
+        srcset=&quot;/static/1166c6181c3fab56ab127bf3e517fe2b/c26ae/img_1.png 158w,
+/static/1166c6181c3fab56ab127bf3e517fe2b/6bdcf/img_1.png 315w,
+/static/1166c6181c3fab56ab127bf3e517fe2b/f058b/img_1.png 630w,
+/static/1166c6181c3fab56ab127bf3e517fe2b/40601/img_1.png 945w,
+/static/1166c6181c3fab56ab127bf3e517fe2b/78612/img_1.png 1260w,
+/static/1166c6181c3fab56ab127bf3e517fe2b/e8950/img_1.png 2000w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;table&gt;&lt;/code&gt;: 표 전체를 감싸는 태그입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;caption&gt;&lt;/code&gt;: 표 제목 태그입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;tr&gt;&lt;/code&gt;: 표의 행을 나타내는 태그입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;th&gt;&lt;/code&gt;: 표의 열 제목을 나타내는 태그입니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;td&gt;&lt;/code&gt;: 표의 셀을 나타내는 태그입니다.&lt;/p&gt;
+&lt;aside&gt;
+👉 `colspan` 속성은 한 셀이 여러 열에 걸쳐 있을 때 사용됩니다. 예를 들어, `&lt;td colspan=&quot;2&quot;&gt;`는 하나의 셀이 두 개의 열을 차지한다는 것을 의미합니다.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;rowspan&lt;/code&gt; 속성은 한 셀이 여러 행에 걸쳐 있을 때 사용됩니다. 예를 들어, &lt;code class=&quot;language-text&quot;&gt;&amp;lt;td rowspan=&quot;2&quot;&gt;&lt;/code&gt;는 하나의 셀이 두 개의 행을 차지한다는 것을 의미합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;/aside&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;HTML-이미지-태그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#HTML-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%83%9C%EA%B7%B8&quot; aria-label=&quot;HTML 이미지 태그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML 이미지 태그&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;img&gt;&lt;/code&gt; 태그를 사용하여 이미지를 삽입할 수 있습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;```html
+&amp;lt;img src=&quot;이미지_파일_경로&quot; alt=&quot;이미지_대체_텍스트&quot;&gt;
+```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt; 속성은 이미지 파일의 경로를 지정합니다. &lt;code class=&quot;language-text&quot;&gt;alt&lt;/code&gt; 속성은 이미지가 로드되지 않았을 때 대체 텍스트를 제공합니다.&lt;/p&gt;
+&lt;p&gt;JPEG, PNG(투명 배경 가능), GIF(아이콘 등) 이미지 형식을 사용할 수 있습니다.&lt;/p&gt;
+&lt;h2 id=&quot;URL&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#URL&quot; aria-label=&quot;URL permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;URL&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://127.0.0.1:8080/chap04/poster-table.html&quot;&gt;http://127.0.0.1:8080/chap04/poster-table.html&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;protocol : http&lt;/p&gt;
+&lt;p&gt;hostname : 127.0.0.1&lt;/p&gt;
+&lt;p&gt;post : 8080&lt;/p&gt;
+&lt;p&gt;pathname : /chap04/poster-table.html&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;HTML에서는 두 가지 경로 지정 방식을 사용합니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;절대 경로&lt;/strong&gt;: 문서의 루트에서부터 파일의 경로를 지정합니다. 예를 들어, &lt;code class=&quot;language-text&quot;&gt;/images/picture.jpg&lt;/code&gt;는 루트 디렉토리에서 &lt;code class=&quot;language-text&quot;&gt;images&lt;/code&gt; 디렉토리에 있는 &lt;code class=&quot;language-text&quot;&gt;picture.jpg&lt;/code&gt; 파일을 나타냅니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;상대 경로&lt;/strong&gt;: 현재 문서에서 파일까지의 상대적인 경로를 지정합니다. 예를 들어, &lt;code class=&quot;language-text&quot;&gt;./images/picture.jpg&lt;/code&gt;는 현재 문서에서 &lt;code class=&quot;language-text&quot;&gt;images&lt;/code&gt; 디렉토리에 있는 &lt;code class=&quot;language-text&quot;&gt;picture.jpg&lt;/code&gt; 파일을 나타냅니다. &lt;code class=&quot;language-text&quot;&gt;./&lt;/code&gt;을 생략할 수 있지만 권장하지는 않습니다. 웹에서는 주로 상대 경로 방식을 사용합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;HTML에서 경로를 지정할 때 &lt;code class=&quot;language-text&quot;&gt;../&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;./&lt;/code&gt;의 차이는 다음과 같습니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;../&lt;/code&gt;: 현재 문서의 상위 디렉토리를 나타냅니다. 예를 들어, &lt;code class=&quot;language-text&quot;&gt;../images/picture.jpg&lt;/code&gt;는 현재 문서의 상위 디렉토리에서 &lt;code class=&quot;language-text&quot;&gt;images&lt;/code&gt; 디렉토리에 있는 &lt;code class=&quot;language-text&quot;&gt;picture.jpg&lt;/code&gt; 파일을 나타냅니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;./&lt;/code&gt;: 현재 문서와 같은 디렉토리를 나타냅니다. 예를 들어, &lt;code class=&quot;language-text&quot;&gt;./images/picture.jpg&lt;/code&gt;는 현재 문서와 같은 디렉토리에서 &lt;code class=&quot;language-text&quot;&gt;images&lt;/code&gt; 디렉토리에 있는 &lt;code class=&quot;language-text&quot;&gt;picture.jpg&lt;/code&gt; 파일을 나타냅니다. &lt;code class=&quot;language-text&quot;&gt;./&lt;/code&gt;을 생략할 수 있지만 권장하지는 않습니다.&lt;/p&gt;
+&lt;h2 id=&quot;width와-heights&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#width%EC%99%80-heights&quot; aria-label=&quot;width와 heights permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;width와 heights&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;img&gt;&lt;/code&gt; 태그의 &lt;code class=&quot;language-text&quot;&gt;width&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;height&lt;/code&gt; 속성을 사용하여 이미지의 크기를 조정할 수 있습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;```html
+&amp;lt;img src=&quot;이미지_파일_경로&quot; alt=&quot;이미지_대체_텍스트&quot; width=&quot;100&quot; height=&quot;100&quot;&gt;
+```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;width&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;height&lt;/code&gt;는 픽셀 단위로 지정됩니다. 이미지의 가로와 세로 크기를 각각 100픽셀로 조정하려면 위와 같이 작성하면 됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;width&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;height&lt;/code&gt; 속성을 사용하지 않으면, 이미지의 원래 크기로 표시됩니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;aside&gt;
+👉 `&amp;lt;img&gt;` 태그의 크기를 조정할 때는, 이미지 파일 자체의 크기를 줄이는 것이 아니라, 이미지가 표시되는 크기를 조절하는 것입니다. 따라서, 이미지 파일 자체의 크기가 매우 크다면, 이미지의 표시 속도가 느려지거나, 페이지 로딩 시간이 길어질 수 있습니다.
+
+&amp;lt;/aside&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;object-태그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#object-%ED%83%9C%EA%B7%B8&quot; aria-label=&quot;object 태그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;object 태그&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;object&gt;&lt;/code&gt; 태그는 외부 웹 페이지, 이미지, 비디오 등의 멀티미디어 콘텐츠를 웹 페이지에 삽입하는 태그입니다. &lt;code class=&quot;language-text&quot;&gt;&amp;lt;embed&gt;&lt;/code&gt; 태그와 비슷한 역할을 수행하지만 더 많은 제어가 가능합니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;object&gt;&lt;/code&gt; 태그는 다음과 같은 속성을 포함합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;data&lt;/code&gt;: 삽입할 콘텐츠의 URL을 지정합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;type&lt;/code&gt;: 삽입할 콘텐츠의 MIME 유형을 지정합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;width&lt;/code&gt;: 삽입된 콘텐츠의 너비를 지정합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;height&lt;/code&gt;: 삽입된 콘텐츠의 높이를 지정합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;name&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;&amp;lt;a&gt;&lt;/code&gt; 태그의 &lt;code class=&quot;language-text&quot;&gt;target&lt;/code&gt;과 비슷한 역할을 수행합니다. &lt;code class=&quot;language-text&quot;&gt;name&lt;/code&gt; 속성이 지정된 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;object&gt;&lt;/code&gt; 태그는 하이퍼링크를 클릭했을 때 새로운 윈도우가 열리지 않고 지정된 이름의 프레임에 콘텐츠가 표시됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;usemap&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;image&lt;/code&gt; 태그와 함께 사용되며, 이미지를 클릭했을 때 링크를 연결하는 맵 파일의 URL을 지정합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;classid&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;codebase&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;codetype&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;archive&lt;/code&gt;: Internet Explorer에서 ActiveX 컨트롤을 삽입할 때 사용합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;object&gt;&lt;/code&gt; 태그는 다음과 같이 사용합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;```html
+&amp;lt;object data=&quot;example.swf&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;400&quot; height=&quot;300&quot;&gt;&amp;lt;/object&gt;
+```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;오디오와-비디오-태그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%98%A4%EB%94%94%EC%98%A4%EC%99%80-%EB%B9%84%EB%94%94%EC%98%A4-%ED%83%9C%EA%B7%B8&quot; aria-label=&quot;오디오와 비디오 태그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;오디오와 비디오 태그&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;오디오 태그&lt;/p&gt;
+&lt;p&gt;HTML5에서 추가된 오디오 태그는 다음과 같습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;audio src=&quot;audio.mp3&quot; controls&gt;&amp;lt;/audio&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;audio&gt;&lt;/code&gt; 태그는 &lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt; 속성으로 오디오 파일의 URL을 지정합니다. &lt;code class=&quot;language-text&quot;&gt;controls&lt;/code&gt; 속성은 오디오 재생 컨트롤러를 표시합니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;audio&gt;&lt;/code&gt; 태그는 다음과 같은 속성을 포함합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt;: 오디오 파일의 경로를 지정합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;controls&lt;/code&gt;: 재생, 일시 중지, 음량 조절 등의 컨트롤러를 표시합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;autoplay&lt;/code&gt;: 페이지가 로드될 때 오디오가 자동으로 재생됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;loop&lt;/code&gt;: 오디오가 반복 재생됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;preload&lt;/code&gt;: 페이지 로드 시 오디오 파일을 미리 로드할지 여부를 지정합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;audio&gt;&lt;/code&gt; 태그는 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;source&gt;&lt;/code&gt; 태그를 사용하여 여러 개의 오디오 파일을 지정할 수도 있습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;audio&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;controls&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;source&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;audio.mp3&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;audio/mpeg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;source&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;audio.ogg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;audio/ogg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  Your browser does not support the audio tag.
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;audio&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;비디오 태그&lt;/p&gt;
+&lt;p&gt;HTML5에서 추가된 비디오 태그는 다음과 같습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;video src=&quot;video.mp4&quot; controls&gt;&amp;lt;/video&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;video&gt;&lt;/code&gt; 태그는 &lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt; 속성으로 비디오 파일의 URL을 지정합니다. &lt;code class=&quot;language-text&quot;&gt;controls&lt;/code&gt; 속성은 비디오 재생 컨트롤러를 표시합니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;video&gt;&lt;/code&gt; 태그는 다음과 같은 속성을 포함합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;src&lt;/code&gt;: 비디오 파일의 경로를 지정합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;controls&lt;/code&gt;: 재생, 일시 중지, 음량 조절 등의 컨트롤러를 표시합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;autoplay&lt;/code&gt;: 페이지가 로드될 때 비디오가 자동으로 재생됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;loop&lt;/code&gt;: 비디오가 반복 재생됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;preload&lt;/code&gt;: 페이지 로드 시 비디오 파일을 미리 로드할지 여부를 지정합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;width&lt;/code&gt;: 비디오의 너비를 지정합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;height&lt;/code&gt;: 비디오의 높이를 지정합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;video&gt;&lt;/code&gt; 태그는 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;source&gt;&lt;/code&gt; 태그를 사용하여 여러 개의 비디오 파일을 지정할 수도 있습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;video&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;controls&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;source&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;video.mp4&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;video/mp4&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;source&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;video.ogg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;video/ogg&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  Your browser does not support the video tag.
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;video&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;a태그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#a%ED%83%9C%EA%B7%B8&quot; aria-label=&quot;a태그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;a태그&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;a&gt;&lt;/code&gt; 태그는 하이퍼링크를 나타내며, 다음과 같은 속성을 포함합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;href&lt;/code&gt;: 하이퍼링크의 URL을 지정합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;target&lt;/code&gt;: 링크를 열 위치를 지정합니다. &lt;code class=&quot;language-text&quot;&gt;_blank&lt;/code&gt;는 새로운 창에서 링크를 열고, &lt;code class=&quot;language-text&quot;&gt;_self&lt;/code&gt;는 현재 창에서 링크를 엽니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;download&lt;/code&gt;: 링크를 클릭했을 때 파일을 다운로드합니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;rel&lt;/code&gt;: 링크와 관련된 것을 지정합니다. &lt;code class=&quot;language-text&quot;&gt;nofollow&lt;/code&gt;는 검색 엔진이 링크를 따라가지 않도록 합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&amp;lt;https://example.com&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;_blank&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Example&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;위 코드는 &lt;code class=&quot;language-text&quot;&gt;Example&lt;/code&gt;이라는 텍스트를 클릭하면 &lt;code class=&quot;language-text&quot;&gt;https://example.com&lt;/code&gt; 주소로 이동합니다. 링크를 새로운 창에서 열려면 &lt;code class=&quot;language-text&quot;&gt;target=&quot;_blank&quot;&lt;/code&gt;를 사용합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;aside&gt;
+👉 `&amp;lt;a&gt;` 태그의 `href` 속성은 URL 뿐만 아니라 다음과 같은 값도 지정할 수 있습니다.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;#&lt;/code&gt;: 현재 페이지의 맨 위로 이동합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;javascript:&lt;/code&gt;: 자바스크립트 코드를 실행합니다. 이 방식은 보안 문제 때문에 권장하지 않습니다.
+&lt;/aside&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;a&gt;&lt;/code&gt; 태그는 텍스트 링크 뿐만 아니라, 이미지를 클릭했을 때 링크를 연결할 수도 있습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;```html
+&amp;lt;a href=&quot;&amp;lt;https://example.com&gt;&quot;&gt;&amp;lt;img src=&quot;example.png&quot; alt=&quot;Example&quot;&gt;&amp;lt;/a&gt;
+```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 코드는 &lt;code class=&quot;language-text&quot;&gt;example.png&lt;/code&gt; 이미지를 클릭하면 &lt;code class=&quot;language-text&quot;&gt;https://example.com&lt;/code&gt; 주소로 이동합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;aside&gt;
+👉 `&amp;lt;a&gt;` 태그는 웹 접근성을 고려해야 하는 중요한 태그입니다. 링크 텍스트는 명확하게 작성해야 하며, 링크가 새 창에서 열리는 경우에는 사용자에게 알려주어야 합니다.
+
+&amp;lt;/aside&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;그 외, a 링크로는 아이프레임 삽입, 이미지맵, 자바스크립트와 연결 할 수 있습니다.&lt;/p&gt;
+&lt;h2 id=&quot;검색과-파라미터&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%80%EC%83%89%EA%B3%BC-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0&quot; aria-label=&quot;검색과 파라미터 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;검색과 파라미터&lt;/h2&gt;
+&lt;p&gt;네이버에서 ‘java’라는 키워드를 사용자가 검색하면 아래와 같은 주소가 나옵니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;aside&gt;
+🌐 https://search.naver.com/search.naver?where=nexearch&amp;amp;sm=top_hty&amp;amp;fbm=0&amp;amp;ie=utf8&amp;amp;query=java
+
+&amp;lt;/aside&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;?&lt;/p&gt;
+&lt;p&gt;where=nexearch   &amp;#x26;&lt;/p&gt;
+&lt;p&gt;sm=top_hty           &amp;#x26;&lt;/p&gt;
+&lt;p&gt;fbm=0                    &amp;#x26;&lt;/p&gt;
+&lt;p&gt;ie=utf8                   &amp;#x26;&lt;/p&gt;
+&lt;p&gt;query=java&lt;/p&gt;</content:encoded></item><item><title><![CDATA[웹개발의 기초]]></title><description><![CDATA[웹개발이란? HTML은 Hyper Text Markup Language의 약자로, 웹 페이지를 만들기 위한 가장 기본이 되는 마크업 언어입니다. 웹 페이지를 구성하는 요소들을 정의하고 그들의 구조와 의미를 나타내기 위해
+사용됩니다. HTML…]]></description><link>https://tol0608.github.io/HTML-basics/index0619/</link><guid isPermaLink="false">https://tol0608.github.io/HTML-basics/index0619/</guid><pubDate>Mon, 19 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;웹개발이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9B%B9%EA%B0%9C%EB%B0%9C%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;웹개발이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;웹개발이란?&lt;/h2&gt;
+&lt;p&gt;HTML은 Hyper Text Markup Language의 약자로, 웹 페이지를 만들기 위한 가장 기본이 되는 마크업 언어입니다. 웹 페이지를 구성하는 요소들을 정의하고 그들의 구조와 의미를 나타내기 위해
+사용됩니다. HTML은 브라우저에서 이해하고 해석할 수 있는 텍스트 파일로 작성되며, 태그를 통해 문서의 구조를 나타내고, 요소를 만들어 콘텐츠를 추가하는 방식으로 작성됩니다.&lt;/p&gt;
+&lt;p&gt;웹 개발은 브라우저에 보이는 외관만이 아니라, 웹사이트에서 제공하는 모든 기능과 서비스를 포함해야 합니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c28964612d8801fd16a885c7fe005973/e8950/img.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 96.83544303797468%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAADCUlEQVR42o2U+U8aQRTH/cvbpMcP/aFN+lvFo6mtUmNQcbl2gV1wAWFll2sPkMMD6tlUBBQU2G8zD6EQY+MkL7sz8+Yz3zfvzczBBiY23WzAHtr/xh99Hu4fYBom9pV9nJ+dj6bGfjYwNw3stNs4rB3i6vJqwh0Oh6hVaqif1KnfbDaRiCWw7lxHpVwZAW17Ap0bK+g/9JHRMvBwHigpBXe3d+jedUlRIVdAuVymhcxPTauoVqq02UQhphSyAWYMUrSKMHQDekGHGBaR0bIUWuWggnwuj7Syj1QyRVCmsJAvIB6L4/LikpgThYPBAMPBEDfNG9SqNYJExAiymSzNX5xf0MKoFKXzU5IKAXcju3CuOXF8dPwIBHD955p21FSNVLTbbbRbbeQyOVrMnG9vbyncvUSSzpOF3Kg3yP/+/n4qKQDJ9fv8iEgR8AEenVaHksP6zNhGv69+o9PukN/R4THicpzUs83YRk/OkDWWXZ/Xh16vR/1ut4dcNo9m84b6rVYLlUoVtg2k0yopHPQHmK6Uf8BRwuj8NEVBSddRLRWRTadxYJooWxZKhoGyaeJA11GyijM1+6QOh4ORSl038OqzA28XnHgz/wPv2NexSt/3XzfwYcWF1w4nltY2WCZnYLPAx7B1w8J3LggpGkcgJMEXkuAVwvDwIXB8GIIYgSso48cOD/T7zyscn6NhlbAZEJGSZSRjMaRiMexFdxGTJDJFluEXd7HGBWG/BGhaJbgCIpR4HHlNQ1ZNI6+qyGsq9Y2MBo8oY5ULvQxomEW4/CJCggC/xzsxzu3GzrYb3u1tuMMyVr3hl4VsFkvwiVHsxeII+HkIvEAmhUUIAZ6yHlJyWPVH/g9k1461QsHA4vIKXBsbcMw7MP9lHosLi1heXManj59o/Nv6JpZ+brJMPg8c3+let4df9QYaJ3Uq9GQiAVmSEOIFnJ2e0Z0+rTfQvL5+UjJPgeNXyB79sDsu+PwI+nzgtrZQtKyZ+ZcBp8I/qh2Bc+8gKATh5TxQ99OjR3cwnHmlp4F/ATWobNMHWPbLAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;img.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c28964612d8801fd16a885c7fe005973/f058b/img.png&quot;
+        srcset=&quot;/static/c28964612d8801fd16a885c7fe005973/c26ae/img.png 158w,
+/static/c28964612d8801fd16a885c7fe005973/6bdcf/img.png 315w,
+/static/c28964612d8801fd16a885c7fe005973/f058b/img.png 630w,
+/static/c28964612d8801fd16a885c7fe005973/40601/img.png 945w,
+/static/c28964612d8801fd16a885c7fe005973/78612/img.png 1260w,
+/static/c28964612d8801fd16a885c7fe005973/e8950/img.png 2000w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;서버(Server)는 클라이언트(Client)에게 서비스를 제공하는 컴퓨터 시스템입니다. 클라이언트는 서버에 요청을 보내고, 서버는 클라이언트에게 응답을 보냅니다. 서버는 데이터 저장 및 관리, 파일 공유, 웹
+페이지 및 애플리케이션 호스팅 등 다양한 작업을 수행할 수 있습니다. 서버는 데이터와 서비스를 가지고 있습니다.&lt;/p&gt;
+&lt;p&gt;클라이언트(Client)는 서버(Server)에게 요청을 보내는 컴퓨터 시스템입니다. 예를 들어, 웹 브라우저는 인터넷 상의 서버에 요청을 보내고, 서버에서 응답을 받아 사용자에게 보여줍니다. 클라이언트는 서버에서
+처리된 데이터 및 정보를 내려받아 인터넷을 통해 사용자에게 제공합니다.&lt;/p&gt;
+&lt;h3 id=&quot;프로그램의-구성요소&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%98-%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C&quot; aria-label=&quot;프로그램의 구성요소 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;프로그램의 구성요소&lt;/h3&gt;
+&lt;p&gt;프로그램은 contents, view, function 세 가지 구성 요소를 갖추어야 합니다.&lt;/p&gt;
+&lt;p&gt;프로그램의 contents는 프로그램이 제공하는 콘텐츠, 즉 데이터를 의미합니다. 이 데이터는 사용자가 프로그램을 사용하는 동안 필요한 정보를 담고 있습니다. 웹에서는 HTML이 담당합니다.&lt;/p&gt;
+&lt;p&gt;프로그램의 view는 사용자가 프로그램을 보는 방식, 즉 인터페이스를 의미합니다. 인터페이스는 사용자가 프로그램을 쉽게 이해하고 사용할 수 있도록 도와줍니다. 따라서, 인터페이스는 직관적이고 사용하기 쉬워야 합니다.
+웹에서는 CSS가 담당합니다.&lt;/p&gt;
+&lt;p&gt;프로그램의 function은 프로그램이 수행하는 기능을 의미합니다. 기능은 프로그램의 목적에 따라 다양합니다. 예를 들어, 계산기 프로그램의 경우 계산 기능이 주요 기능이 될 것입니다. 웹에서는 JavaScript가
+담당합니다.&lt;/p&gt;
+&lt;h3 id=&quot;SSR과-CSR&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#SSR%EA%B3%BC-CSR&quot; aria-label=&quot;SSR과 CSR permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;SSR과 CSR&lt;/h3&gt;
+&lt;p&gt;Server-side rendering (SSR)은 서버 측에서 HTML을 생성하고 브라우저에 전송하는 프로세스입니다. 이는 초기 로드 속도를 높이고 검색 엔진 최적화 (SEO)를 향상시키는 데 도움이 됩니다.
+그러나, SSR은 초기로드 속도를 높이는 대신 서버에 추가 부하를 유발할 수 있습니다. JSP, ASP, .net, PHP, Python 등&lt;/p&gt;
+&lt;p&gt;Client-side rendering (CSR)은 클라이언트 측에서 JavaScript를 사용하여 HTML을 생성하는 프로세스입니다. CSR은 전체 페이지를 다운로드하지 않고 필요한 부분만 다운로드하므로 초기로드
+속도가 빠릅니다. 그러나, CSR은 검색 엔진 최적화에 문제가 있을 수 있습니다.&lt;/p&gt;
+&lt;h3 id=&quot;HTML의-구조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#HTML%EC%9D%98-%EA%B5%AC%EC%A1%B0&quot; aria-label=&quot;HTML의 구조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML의 구조&lt;/h3&gt;
+&lt;p&gt;HTML은 브라우저에서 이해하고 해석할 수 있는 텍스트 파일로 작성되며, 태그를 통해 문서의 구조를 나타내고, 요소를 만들어 콘텐츠를 추가하는 방식으로 작성됩니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;```html
+&amp;lt;!DOCTYPE html&gt; /* 문서유형선언 */
+&amp;lt;html&gt;
+  &amp;lt;head&gt;
+    &amp;lt;meta charset=&quot;utf-8&quot;&gt;
+    &amp;lt;title&gt;웹페이지 제목&amp;lt;/title&gt;
+  &amp;lt;/head&gt;
+  &amp;lt;body&gt;
+    &amp;lt;header&gt;
+      &amp;lt;h1&gt;웹페이지 제목&amp;lt;/h1&gt;
+      &amp;lt;nav&gt;
+        &amp;lt;ul&gt;
+          &amp;lt;li&gt;&amp;lt;a href=&quot;#&quot;&gt;메뉴1&amp;lt;/a&gt;&amp;lt;/li&gt;
+          &amp;lt;li&gt;&amp;lt;a href=&quot;#&quot;&gt;메뉴2&amp;lt;/a&gt;&amp;lt;/li&gt;
+          &amp;lt;li&gt;&amp;lt;a href=&quot;#&quot;&gt;메뉴3&amp;lt;/a&gt;&amp;lt;/li&gt;
+        &amp;lt;/ul&gt;
+      &amp;lt;/nav&gt;
+    &amp;lt;/header&gt;
+    &amp;lt;section&gt;
+      &amp;lt;h2&gt;섹션 제목&amp;lt;/h2&gt;
+      &amp;lt;p&gt;본문&amp;lt;/p&gt;
+    &amp;lt;/section&gt;
+    &amp;lt;footer&gt;
+      &amp;lt;p&gt;저작권 표시&amp;lt;/p&gt;
+    &amp;lt;/footer&gt;
+  &amp;lt;/body&gt;
+&amp;lt;/html&gt;
+```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;편집기(VSCODE 세팅)&lt;/p&gt;
+&lt;h3 id=&quot;VS-Code-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#VS-Code-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;VS Code 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;VS Code 설치&lt;/h3&gt;
+&lt;p&gt;VS Code는 Microsoft에서 개발한 인기 있는 텍스트 편집기입니다. 다양한 프로그래밍 언어와 프레임워크를 지원하며, 사용자 정의 가능한 인터페이스, 내장된 디버깅 및 Git 지원 등 다양한 기능을
+제공합니다.&lt;/p&gt;
+&lt;h3 id=&quot;Windows-사용자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#Windows-%EC%82%AC%EC%9A%A9%EC%9E%90&quot; aria-label=&quot;Windows 사용자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Windows 사용자&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;VS Code 다운로드 페이지(&lt;a href=&quot;https://code.visualstudio.com/Download)%EC%97%90&quot;&gt;https://code.visualstudio.com/Download)에&lt;/a&gt; 접속합니다.&lt;/li&gt;
+&lt;li&gt;Windows 버전을 선택합니다.&lt;/li&gt;
+&lt;li&gt;다운로드한 파일을 실행합니다.&lt;/li&gt;
+&lt;li&gt;설치 마법사를 실행하여 설치를 완료합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;Mac-사용자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#Mac-%EC%82%AC%EC%9A%A9%EC%9E%90&quot; aria-label=&quot;Mac 사용자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Mac 사용자&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;VS Code 다운로드 페이지(&lt;a href=&quot;https://code.visualstudio.com/Download)%EC%97%90&quot;&gt;https://code.visualstudio.com/Download)에&lt;/a&gt; 접속합니다.&lt;/li&gt;
+&lt;li&gt;Mac 버전을 선택합니다.&lt;/li&gt;
+&lt;li&gt;다운로드한 파일을 실행합니다.&lt;/li&gt;
+&lt;li&gt;설치 마법사를 실행하여 설치를 완료합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;Linux-사용자&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#Linux-%EC%82%AC%EC%9A%A9%EC%9E%90&quot; aria-label=&quot;Linux 사용자 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Linux 사용자&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;VS Code 다운로드 페이지(&lt;a href=&quot;https://code.visualstudio.com/Download)%EC%97%90&quot;&gt;https://code.visualstudio.com/Download)에&lt;/a&gt; 접속합니다.&lt;/li&gt;
+&lt;li&gt;Linux 버전을 선택합니다.&lt;/li&gt;
+&lt;li&gt;다운로드한 파일을 실행합니다.&lt;/li&gt;
+&lt;li&gt;설치 마법사를 실행하여 설치를 완료합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside&gt;
+🌐 저는 Webstorm을 사용합니다 :)
+&lt;/aside&gt;
+&lt;h3 id=&quot;HTML-기본-문서-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#HTML-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EC%84%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;HTML 기본 문서 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML 기본 문서 만들기&lt;/h3&gt;
+&lt;p&gt;시맨틱 태그는 HTML5에서 추가된 태그로, 문서의 의미와 구조를 나타내는 역할을 합니다. 이전 버전의 HTML에서는 div와 span 태그를 주로 사용했지만, 시맨틱 태그를 사용하면 문서의 의미를 더욱 명확하게
+전달할 수 있습니다. 시맨틱 태그로는 header, nav, article, section, aside, footer 등이 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;header: 페이지나 섹션의 헤더를 나타냅니다.&lt;/li&gt;
+&lt;li&gt;nav: 네비게이션 링크를 포함하는 섹션을 나타냅니다.&lt;/li&gt;
+&lt;li&gt;article: 문서, 페이지, 애플리케이션, 또는 사이트 안에서 독립적으로 구분 가능한 영역을 나타냅니다.&lt;/li&gt;
+&lt;li&gt;section: 문서의 일반적인 섹션을 나타냅니다. 보통 제목(h1~h6)과 함께 사용합니다.&lt;/li&gt;
+&lt;li&gt;aside: 본문의 주요 내용과는 관련성이 적은 컨텐츠를 나타냅니다.&lt;/li&gt;
+&lt;li&gt;footer: 페이지나 섹션의 푸터를 나타냅니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;HTML-NCE&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#HTML-NCE&quot; aria-label=&quot;HTML NCE permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTML NCE&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;amp;nbsp;&lt;/code&gt;: 공백 문자&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;amp;lt;&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;&amp;lt;&lt;/code&gt; 기호&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;amp;gt;&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;&gt;&lt;/code&gt; 기호&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;amp;amp;&lt;/code&gt;: &lt;code class=&quot;language-text&quot;&gt;&amp;amp;&lt;/code&gt; 기호&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;amp;quot;&lt;/code&gt;: 큰 따옴표(&quot;)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;amp;apos;&lt;/code&gt;: 작은 따옴표(&apos;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;div와-span&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#div%EC%99%80-span&quot; aria-label=&quot;div와 span permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;div와 span&lt;/h3&gt;
+&lt;p&gt;div와 span 태그는 모두 HTML에서 컨테이너 역할을 하는 태그입니다. 그러나, div는 블록 레벨 요소이고, span은 인라인 요소입니다. 따라서, div는 블록을 형성하고, span은 한 줄 안에 다른
+요소들과 함께 사용됩니다. 일반적으로, div는 큰 덩어리의 콘텐츠를 그룹화하고, span은 작은 덩어리의 콘텐츠를 그룹화하는 데 사용됩니다.&lt;/p&gt;
+&lt;h3 id=&quot;️-웹-어플리케이션을-개발하기-위한-필수-태그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EF%B8%8F-%EC%9B%B9-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%84-%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%ED%95%84%EC%88%98-%ED%83%9C%EA%B7%B8&quot; aria-label=&quot;️ 웹 어플리케이션을 개발하기 위한 필수 태그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;⭐️ 웹 어플리케이션을 개발하기 위한 필수 태그&lt;/h3&gt;
+&lt;p&gt;HTML에서 &lt;code class=&quot;language-text&quot;&gt;form&lt;/code&gt;태그는 클라이언트에서 서버로 데이터를 전송하는 데 사용됩니다. 일반적으로, 사용자로부터 입력 정보를 수집하기 위해 사용됩니다. &lt;code class=&quot;language-text&quot;&gt;form&lt;/code&gt;태그에는 다양한 속성이 있으며, 주요 속성으로는
+action, method, name, target 등이 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;table&lt;/code&gt; 태그는 행과 열로 구성된 표를 만드는 데 사용됩니다. 각 행은 &lt;code class=&quot;language-text&quot;&gt;tr&lt;/code&gt; 태그로, 각 셀은 &lt;code class=&quot;language-text&quot;&gt;td&lt;/code&gt; 태그로 만들어집니다. 표의 헤더부분은 &lt;code class=&quot;language-text&quot;&gt;th&lt;/code&gt; 태그로 만들어집니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt;태그는 하이퍼링크를 생성하는 데 사용됩니다. &lt;code class=&quot;language-text&quot;&gt;href&lt;/code&gt; 속성을 사용하여 링크 대상을 지정할 수 있으며, &lt;code class=&quot;language-text&quot;&gt;target&lt;/code&gt; 속성을 사용하여 링크를 열 위치를 지정할 수 있습니다. 일반적으로, 링크에는 텍스트 또는
+이미지를 사용하여 사용자에게 링크 대상을 알립니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[마크다운을 이용한 블로그 업로드]]></title><description><![CDATA[마크다운을 활용한 블로그 글 작성 예시 안녕하세요! 이번에는 마크다운(Markdown…]]></description><link>https://tol0608.github.io/markdown/</link><guid isPermaLink="false">https://tol0608.github.io/markdown/</guid><pubDate>Sun, 18 Jun 2023 23:09:32 GMT</pubDate><content:encoded>&lt;h1 id=&quot;마크다운을-활용한-블로그-글-작성-예시&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80-%EC%9E%91%EC%84%B1-%EC%98%88%EC%8B%9C&quot; aria-label=&quot;마크다운을 활용한 블로그 글 작성 예시 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;마크다운을 활용한 블로그 글 작성 예시&lt;/h1&gt;
 &lt;p&gt;안녕하세요! 이번에는 마크다운(Markdown) 방식으로 블로그 글을 작성하는 방법에 대해서 알아보도록 하겠습니다.&lt;/p&gt;
 &lt;h2 id=&quot;마크다운이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;마크다운이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;마크다운이란?&lt;/h2&gt;
 &lt;p&gt;마크다운은 일반 텍스트 기반의 경량 마크업 언어입니다. 간단한 문법으로 작성하여 HTML로 변환할 수 있기 때문에 웹에서 글을 작성할 때 유용하게 사용됩니다.&lt;/p&gt;
