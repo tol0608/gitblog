@@ -5,7 +5,6 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import kebabCase from "lodash.kebabcase"
-import TableOfContents from "../components/TableOfContents"
 
 const BlogPostTemplate = ({
                               data: {
@@ -36,9 +35,7 @@ const BlogPostTemplate = ({
                     itemProp="articleBody"
                 />
                 <hr/>
-                <TableOfContents content={content} />
-                {/*TOC삽입*/}
-                {/*tags*/}
+
                 <div className="tags">
                     <ul>
                         {post.frontmatter.tags

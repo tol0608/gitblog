@@ -1,7 +1,5 @@
 import React from "react"
 import * as Tag from "../styles/tag.module.css"
-// css를 모듈 방식으로 넣을때는 * as 를 넣어야함 230618
-
 import {Link, graphql} from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
