@@ -130,5 +130,22 @@ module.exports = {
                 icon: `src/images/ljh_photo.png`, // This path is relative to the root of the site.
             },
         },
+        {
+            resolve: `gatsby-plugin-alias-imports`,
+            options: {
+                alias: {
+                    "@src": "src",
+                    "@components": "src/components",
+                    "@layouts": "src/layouts",
+                    "@pages": "src/pages",
+                    "@sass": "src/sass",
+                    "@templates": "src/templates",
+                    "@posts": "content/posts",
+                },
+                extensions: [
+                    "js"
+                ]
+            }
+        }
     ],
 }
