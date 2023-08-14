@@ -18,6 +18,7 @@ module.exports = {
         siteUrl: `https://tol0608.github.io`
     },
     plugins: [
+        'gatsby-plugin-dark-mode',
         `gatsby-plugin-image`,
         {
             resolve: `gatsby-source-filesystem`,

@@ -1,28 +1,45 @@
 import * as React from "react";
-import { Link } from "gatsby";
-import styled, { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme } from '../styles/theme';
+import {Link} from "gatsby";
+import styled, {ThemeProvider} from 'styled-components';
+import {lightTheme, darkTheme} from '../styles/theme';
 import useTheme from '../hooks/useTheme';
+
+import {createGlobalStyle} from 'styled-components';
 
 
 const ThemeToggleButton = styled.button`
   width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: ${({ theme }) => theme.color.fontColor};
-  background-color: ${({ theme }) => theme.color.backgroundColor};
+  height: 60px;
+  margin-top: 16px;
+  color: ${({theme}) => theme.fontColor};
+  background-color: ${({theme}) => theme.backgroundColor};
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: ${({theme}) => theme.toggleButtonHoverBackground};
+    color: ${({theme}) => theme.toggleButtonHoverColor};
+  }
 `;
 
-const Layout = ({ location, title, children }) => {
+const GlobalStyles = createGlobalStyle`
+  body {
+    background-color: ${({theme}) => theme.bodyBackground};
+    color: ${({theme}) => theme.fontColor};
+  }
+`;
+
+const Layout = ({location, title, children}) => {
     const rootPath = `${__PATH_PREFIX__}/`;
     const isRootPath = location.pathname === rootPath;
-    let header;
+
     const [theme, themeToggler] = useTheme();
+
     const themeMode = theme === 'light' ? lightTheme : darkTheme;
 
+    let header;
     if (isRootPath) {
         header = (
             <h1 className="main-heading">
@@ -39,19 +56,20 @@ const Layout = ({ location, title, children }) => {
 
     return (
         <ThemeProvider theme={themeMode}>
-            <div className="global-wrapper" data-is-root-path={isRootPath}>
+            <GlobalStyles/>
+            <div className={`global-wrapper ${theme}`}>
                 <header className="global-header">{header}</header>
-                <ThemeToggleButton onClick={themeToggler}>
-                    {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
-                </ThemeToggleButton>
                 <main>{children}</main>
                 <footer>
                     {new Date().getFullYear()} 년에는 웃는일이 가득하면 좋겠습니다 🙂
-                    {` `}
                 </footer>
+                <ThemeToggleButton onClick={themeToggler}>
+                    {theme === 'light' ? '다크 모드로 전환' : '라이트 모드로 전환'}
+                </ThemeToggleButton>
             </div>
         </ThemeProvider>
     );
 };
+
 
 export default Layout;
