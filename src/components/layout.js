@@ -1,35 +1,75 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import {Link} from "gatsby";
+import styled, {ThemeProvider} from 'styled-components';
+import {lightTheme, darkTheme} from '../styles/theme';
+import useTheme from '../hooks/useTheme';
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
-  let header
+import {createGlobalStyle} from 'styled-components';
 
-  if (isRootPath) {
-    header = (
-      <h1 className="main-heading">
-        <Link to="/">{title}</Link>
-      </h1>
-    )
-  } else {
-    header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
-    )
+
+const ThemeToggleButton = styled.button`
+  width: 200px;
+  height: 60px;
+  margin-top: 16px;
+  color: ${({theme}) => theme.fontColor};
+  background-color: ${({theme}) => theme.backgroundColor};
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover {
+    background-color: ${({theme}) => theme.toggleButtonHoverBackground};
+    color: ${({theme}) => theme.toggleButtonHoverColor};
   }
+`;
 
-  return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
-      <main>{children}</main>
-      <footer>
-        😎 {new Date().getFullYear()} 년에 발행된 비상업적 글들입니다 :)
-        {` `}
-      </footer>
-    </div>
-  )
-}
+const GlobalStyles = createGlobalStyle`
+  body {
+    background-color: ${({theme}) => theme.bodyBackground};
+    color: ${({theme}) => theme.fontColor};
+  }
+`;
 
-export default Layout
+const Layout = ({location, title, children}) => {
+    const rootPath = `${__PATH_PREFIX__}/`;
+    const isRootPath = location.pathname === rootPath;
+
+    const [theme, themeToggler] = useTheme();
+
+    const themeMode = theme === 'light' ? lightTheme : darkTheme;
+
+    let header;
+    if (isRootPath) {
+        header = (
+            <h1 className="main-heading">
+                <Link to="/">{title}</Link>
+            </h1>
+        );
+    } else {
+        header = (
+            <Link className="header-link-home" to="/">
+                {title}
+            </Link>
+        );
+    }
+
+    return (
+        <ThemeProvider theme={themeMode}>
+            <GlobalStyles/>
+            <div className={`global-wrapper ${theme}`}>
+                <header className="global-header">{header}</header>
+                <main>{children}</main>
+                <footer>
+                    {new Date().getFullYear()} 년에는 웃는일이 가득하면 좋겠습니다 🙂
+                </footer>
+                <ThemeToggleButton onClick={themeToggler}>
+                    {theme === 'light' ? '다크 모드로 전환' : '라이트 모드로 전환'}
+                </ThemeToggleButton>
+            </div>
+        </ThemeProvider>
+    );
+};
+
+
+export default Layout;

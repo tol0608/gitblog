@@ -53,11 +53,11 @@
     --fontSize-6: 2.488rem;
     --fontSize-7: 2.986rem;
     --color-primary: #535680;
-    --color-text: #2e353f;
+    --color-text: #000000;
     --color-text-light: #4f5969;
     --color-heading: #1a202c;
-    --color-heading-black: black;
-    --color-accent: #d1dce5;
+    --color-heading-black: #000000;
+    --color-accent: #ffffff;
 }
 
 /* HTML elements */
@@ -297,7 +297,7 @@ a:focus {
 .bio h6 span {
     display: inline-block;
     background: #515373;
-    color: #eee;
+    color: #ffffff;
     padding: 2px 6px;
     font-weight: 700;
     border-radius: 8px;
@@ -396,5 +396,19 @@ a:focus {
     ul,
     ol {
         list-style-position: inside;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        color: var(--color-text);
+        background-color: #ffffff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #ffffff;
+        background-color: var(--color-text);
     }
 }

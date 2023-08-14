@@ -14,10 +14,11 @@ module.exports = {
             name: `Jae Hyeon`,
             summary: `One More Thing`,
         },
-        description: `오늘도 앞으로`,
+        description: `미래를 위해 지금 생각하고, 기록하자`,
         siteUrl: `https://tol0608.github.io`
     },
     plugins: [
+        'gatsby-plugin-dark-mode',
         `gatsby-plugin-image`,
         {
             resolve: `gatsby-source-filesystem`,
@@ -130,5 +131,22 @@ module.exports = {
                 icon: `src/images/ljh_photo.png`, // This path is relative to the root of the site.
             },
         },
+        {
+            resolve: `gatsby-plugin-alias-imports`,
+            options: {
+                alias: {
+                    "@src": "src",
+                    "@components": "src/components",
+                    "@layouts": "src/layouts",
+                    "@pages": "src/pages",
+                    "@sass": "src/sass",
+                    "@templates": "src/templates",
+                    "@posts": "content/posts",
+                },
+                extensions: [
+                    "js"
+                ]
+            }
+        }
     ],
 }

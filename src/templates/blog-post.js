@@ -16,8 +16,6 @@ const BlogPostTemplate = ({
                               location,
                           }) => {
     const siteTitle = site.siteMetadata?.title || `Title`
-    const content = post.tableOfContents
-    //TOC 기능 230621 완료
 
     return (
         <Layout location={location} title={siteTitle}>
