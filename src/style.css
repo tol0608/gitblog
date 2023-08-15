@@ -348,6 +348,18 @@ a:focus {
     font-weight: 500;
 }
 
+.themeToggle-btn {
+    width: 140px;
+    height: 60px;
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
 /*tags start*/
 .blog-post .tags ul {
     list-style: none;
