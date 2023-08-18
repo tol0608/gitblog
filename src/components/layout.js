@@ -8,6 +8,7 @@ import {createGlobalStyle} from 'styled-components';
 const ThemeToggleButton = styled.button`
   color: ${({theme}) => theme.toggleButtonColor};
   background-color: ${({theme}) => theme.toggleButtonBackground};
+
   &:hover {
     color: ${({theme}) => theme.toggleButtonHoverColor};
     background-color: ${({theme}) => theme.toggleButtonHoverBackground};
@@ -31,7 +32,7 @@ const GlobalStyles = createGlobalStyle`
   .bio h6 {
     color: ${({theme}) => theme.bioColor};
   }
-  
+
   .bio h6 span {
     color: ${({theme}) => theme.bioSpanColor};
     background-color: ${({theme}) => theme.bioBackground};
