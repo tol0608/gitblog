@@ -27,6 +27,7 @@ module.exports = {
                 name: `blog`,
             },
         },
+        "gatsby-plugin-mdx",
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -100,7 +101,6 @@ module.exports = {
                 nodes {
                   excerpt
                   html
-                  tableOfContents
                   fields {
                     slug
                   }
@@ -124,9 +124,6 @@ module.exports = {
                 short_name: `Gatsby`,
                 start_url: `/`,
                 background_color: `#ffffff`,
-                // This will impact how browsers show your PWA/website
-                // https://css-tricks.com/meta-theme-color-and-trickery/
-                // theme_color: `#663399`,
                 display: `minimal-ui`,
                 icon: `src/images/ljh_photo.png`, // This path is relative to the root of the site.
             },
