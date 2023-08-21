@@ -1,15 +1,15 @@
-import React from "react";
-import Layout from "../components/layout";
-import {Link, graphql} from "gatsby";
+import React from "react"
+import Layout from "../components/layout"
+import { Link, graphql } from "gatsby"
 import Seo from "../components/seo";
 
-var kebabCase = require("lodash.kebabcase");
+var kebabCase = require("lodash.kebabcase")
 
 const TagsPage = ({
                       data: {
-                          allMarkdownRemark: {group},
+                          allMarkdownRemark: { group },
                           site: {
-                              siteMetadata: {title},
+                              siteMetadata: { title },
                           },
                       },
                       location,

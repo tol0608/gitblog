@@ -1,19 +1,21 @@
-import * as React from "react";
-import { graphql } from "gatsby";
-import Layout from "../components/layout";
-import Seo from "../components/seo";
-import BlogTags from "../components/BlogTags";
-import BlogNavigation from "../components/BlogNavigation";
+import * as React from "react"
+import {Link, graphql} from "gatsby"
 
-const BlogPostTemplate = ({ data, location }) => {
-    const {
-        previous,
-        next,
-        site,
-        markdownRemark: post,
-    } = data;
+import Bio from "../components/bio"
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+import kebabCase from "lodash.kebabcase"
 
-    const siteTitle = site.siteMetadata?.title || `Title`;
+const BlogPostTemplate = ({
+                              data: {
+                                  previous,
+                                  next,
+                                  site,
+                                  markdownRemark: post,
+                              },
+                              location,
+                          }) => {
+    const siteTitle = site.siteMetadata?.title || `Title`
 
     return (
         <Layout location={location} title={siteTitle}>
@@ -27,30 +29,67 @@ const BlogPostTemplate = ({ data, location }) => {
                     <p>{post.frontmatter.date}</p>
                 </header>
                 <section
-                    dangerouslySetInnerHTML={{ __html: post.html }}
+                    dangerouslySetInnerHTML={{__html: post.html}}
                     itemProp="articleBody"
                 />
-                <hr />
-                <BlogTags tags={post.frontmatter.tags} />
-                <BlogNavigation previous={previous} next={next} />
+                <hr/>
+
+                <div className="tags">
+                    <ul>
+                        {post.frontmatter.tags
+                            ? post.frontmatter.tags.map(tag => (
+                                <li key={kebabCase(tag)}>
+                                    <Link to={`/tags/${kebabCase(tag)}`}>{kebabCase(tag)}</Link>
+                                </li>
+                            ))
+                            : null}
+                    </ul>
+                </div>
                 <footer>
-                    {/* Add Bio component or other footer content */}
+                    <Bio/>
                 </footer>
             </article>
-        </Layout>
-    );
-};
 
-export const Head = ({ data: { markdownRemark: post } }) => {
+            <nav className="blog-post-nav">
+                <ul
+                    style={{
+                        display: `flex`,
+                        flexWrap: `wrap`,
+                        justifyContent: `space-between`,
+                        listStyle: `none`,
+                        padding: 0,
+                    }}
+                >
+                    <li>
+                        {previous && (
+                            <Link to={previous.fields.slug} rel="prev">
+                                ← {previous.frontmatter.title}
+                            </Link>
+                        )}
+                    </li>
+                    <li>
+                        {next && (
+                            <Link to={next.fields.slug} rel="next">
+                                {next.frontmatter.title} →
+                            </Link>
+                        )}
+                    </li>
+                </ul>
+            </nav>
+        </Layout>
+    )
+}
+
+export const Head = ({data: {markdownRemark: post}}) => {
     return (
         <Seo
             title={post.frontmatter.title}
             description={post.frontmatter.description || post.excerpt}
         />
-    );
-};
+    )
+}
 
-export default BlogPostTemplate;
+export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug(
@@ -67,6 +106,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      tableOfContents
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
@@ -91,4 +131,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

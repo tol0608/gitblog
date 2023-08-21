@@ -8,6 +8,9 @@ const Tags = ({pageContext, data, location}) => {
     const {tag} = pageContext
     const {edges, totalCount} = data.allMarkdownRemark
     const siteTitle = data.site.siteMetadata.title
+    // const tagHeader = `${totalCount} post${
+    //     totalCount === 1 ? "" : "s"
+    // } tagged with "${tag}"`
     const tagHeader = `${tag} 태그의 글은 ${totalCount}개 입니다.`
     // s태그의 글은 n개입니다. 로 수정  230618
 
@@ -49,6 +52,9 @@ export const pageQuery = graphql`
     totalCount
     edges {
       node {
+        fields {
+          slug
+        }
         frontmatter {
           title
         }
