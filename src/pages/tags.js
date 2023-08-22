@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import {Link, graphql} from "gatsby";
 import Seo from "../components/seo";
+import * as TagStyles from "../styles/tag.module.css";
 
 var kebabCase = require("lodash.kebabcase");
 
@@ -20,8 +21,8 @@ const TagsPage = ({
             keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
         <div>
-            <h1>Tags</h1>
-            <ul>
+            <h2>Tags</h2>
+            <ul className={TagStyles.tagsList_ul}>
                 {group.map(tag => (
                     <li key={tag.fieldValue}>
                         <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>

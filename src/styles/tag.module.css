@@ -1,4 +1,5 @@
-.tagList{
+/* templates/tags.js */
+.tagList {
     list-style: none;
 }
 
@@ -8,4 +9,19 @@
 
 .tagList a {
     text-decoration: none;
+}
+
+
+/* Pages/tags.js */
+.tagsList_ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.tagsList_ul li a {
+    text-decoration: none;
+}
+
+.tagsList_ul li a:hover {
+    font-weight: 500;
 }
