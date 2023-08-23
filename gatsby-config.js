@@ -18,6 +18,13 @@ module.exports = {
         siteUrl: `https://tol0608.github.io`
     },
     plugins: [
+        {
+            resolve: 'gatsby-plugin-typescript',
+            options: {
+                isTSX: true,
+                allExtensions: true,
+            },
+        },
         'gatsby-plugin-dark-mode',
         `gatsby-plugin-image`,
         {
